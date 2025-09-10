@@ -10,7 +10,7 @@ def generate_cover_letter(template_path, company, position, city, skill, output_
         "[company name]": company,
         "[position name]": position,
         "[City]": city,
-        "[skills]":skill
+        "[skill]":skill
     }
 
     # Replace placeholders
@@ -32,8 +32,8 @@ def generate_cover_letter(template_path, company, position, city, skill, output_
 # Example usage
 generate_cover_letter(
     template_path="C:\\Resume\\CoverLetter\\CoverLetterTEMPLATE3.docx",
-    company="Texas Instruments",
-    position="Hardware Test Engineer",
-    city="Dallas",
-    skill="",
+    company="Ericsson",
+    position="Electronic Troubleshoot Technician",
+    city="Waxahachie",
+    skill="proficiency in troubleshooting and debugging",
 )
